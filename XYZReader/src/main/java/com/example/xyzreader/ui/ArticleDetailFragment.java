@@ -118,8 +118,8 @@ public class ArticleDetailFragment extends Fragment implements
             public void onScrollChanged() {
                 mScrollY = mScrollView.getScrollY();
                 getActivityCast().onUpButtonFloorChanged(mItemId, ArticleDetailFragment.this);
-                mPhotoContainerView.setTranslationY((int) (mScrollY - mScrollY / PARALLAX_FACTOR));
-                updateStatusBar();
+                  mPhotoContainerView.setTranslationY((int) (mScrollY - mScrollY / PARALLAX_FACTOR));
+                  updateStatusBar();
             }
         });
 
@@ -143,7 +143,7 @@ public class ArticleDetailFragment extends Fragment implements
         return mRootView;
     }
 
-    private void updateStatusBar() {
+   private void updateStatusBar() {
         int color = 0;
         if (mPhotoView != null && mTopInset != 0 && mScrollY > 0) {
             float f = progress(mScrollY,
@@ -178,10 +178,12 @@ public class ArticleDetailFragment extends Fragment implements
         }
 
         TextView titleView = (TextView) mRootView.findViewById(R.id.article_title);
+        titleView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "LemonMilk.otf"));
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
+        bylineView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Champagne & Limousines.ttf"));
         bylineView.setMovementMethod(new LinkMovementMethod());
         TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
-        bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
+        bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Champagne & Limousines.ttf"));
 
         if (mCursor != null) {
             mRootView.setAlpha(0);
@@ -255,7 +257,7 @@ public class ArticleDetailFragment extends Fragment implements
         bindViews();
     }
 
-    public int getUpButtonFloor() {
+   public int getUpButtonFloor() {
         if (mPhotoContainerView == null || mPhotoView.getHeight() == 0) {
             return Integer.MAX_VALUE;
         }
