@@ -5,35 +5,26 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="354356178658084"
+    timestamp="354886399934073"
     token="-4909159054167991532"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1019" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="147" />
+        duration="0" />
     <task
         name="verifier"
-        duration="31" />
+        duration="0" />
 
     <artifact
         location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
-    <artifact
-        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
 
     <build
         timestamp="353128861301635"
@@ -46,9 +37,6 @@
         timestamp="354356178658084"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
             location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
         <artifact
@@ -57,6 +45,13 @@
         <artifact
             location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="354886399934073"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
