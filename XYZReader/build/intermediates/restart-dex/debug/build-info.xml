@@ -5,34 +5,136 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="334391475783826"
+    timestamp="335086081279623"
     token="-4909159054167991532"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="956" />
+        duration="1116" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="193" />
+        duration="1126" />
     <task
         name="verifier"
-        duration="35" />
+        duration="99" />
 
     <artifact
         location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
     <artifact
-        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
         location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
         type="DEX" />
     <artifact
         location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_7211359e00b4c8a6b1d0c341e214c4f8e703e97d\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_b285c666937c871821b8048dea1f46ed3fd422dc\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_909d413e8e75b94785d7ca2c27917f5aa225525d\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_2060584cdd8f91bf45cf3e2a278f97d96cd3a2e7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_8a62b07a15a4b78d53579f565d12af18f0128b93\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_b7dafb03c432a88b457a62c2f31de90c051d7a67\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_82f87df7171401906c82614582f81766d1432df1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b57fe96557dd434a87c2cf66dbd51c7712b1b98b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_49f577c7bff7c934d88051ef4fbbbac62abe1181\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ee1d79f05007bd74f172daedaed64c46a2253f93\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_70e5bda11ce381caaf5868e6dd64cd533b4aa988\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_424af6b11edb2b7a8c758b081b90b05acd71fd0c\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_32a15beb93800c347af491544a64eaf24a5c6a34\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4981a774e4ab22d6ec315992469b48f5be5b3cde\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5ba9609fa32114c4a37b476ad1c8e92915a92761\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_88b55e5b80d0033a857c3c45bc1036d7129edfdf\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_1a9011fc9b4767e244adc768e7ea9335a47ca5a2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_f5a7e1d5e3f9dd4226a27c9290f312f04d61886a\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ffccd14b9a5d0cd63ebeb0c714c5fe3578508057\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.0.1_3597ae0a9758f1a8d21caedc5e828ceb433f9fe3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d7cd25688044a2374c6a280cb9f17979cb56abbd\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-25.0.1_dfcc1fd1a7d7d515838a3e7c98f9baa598ba6daf\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_a0ee5570b6c643e549e98de843d748336569bc8b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_9041bffe27d1841f63d4ab02d93750302456fe08\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_cda88607ed0bb1cba54d7c6a15501d811c0157c3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_6f56327b7e27dacbc8eb6c629daae87e032469c1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_81c6d64e12e79cd0166a402ca5f65b37bca08da9\classes.dex"
         type="DEX" />
 
     <build
@@ -43,19 +145,121 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="334391475783826"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="335086081279623"
+        verifier="FIELD_TYPE_CHANGE" >
         <artifact
             location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-        <artifact
-            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
         <artifact
             location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
         <artifact
             location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_7211359e00b4c8a6b1d0c341e214c4f8e703e97d\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_b285c666937c871821b8048dea1f46ed3fd422dc\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_909d413e8e75b94785d7ca2c27917f5aa225525d\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_2060584cdd8f91bf45cf3e2a278f97d96cd3a2e7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_8a62b07a15a4b78d53579f565d12af18f0128b93\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_b7dafb03c432a88b457a62c2f31de90c051d7a67\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_82f87df7171401906c82614582f81766d1432df1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b57fe96557dd434a87c2cf66dbd51c7712b1b98b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_49f577c7bff7c934d88051ef4fbbbac62abe1181\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ee1d79f05007bd74f172daedaed64c46a2253f93\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_70e5bda11ce381caaf5868e6dd64cd533b4aa988\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_424af6b11edb2b7a8c758b081b90b05acd71fd0c\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_32a15beb93800c347af491544a64eaf24a5c6a34\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4981a774e4ab22d6ec315992469b48f5be5b3cde\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5ba9609fa32114c4a37b476ad1c8e92915a92761\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_88b55e5b80d0033a857c3c45bc1036d7129edfdf\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_1a9011fc9b4767e244adc768e7ea9335a47ca5a2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_f5a7e1d5e3f9dd4226a27c9290f312f04d61886a\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ffccd14b9a5d0cd63ebeb0c714c5fe3578508057\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.0.1_3597ae0a9758f1a8d21caedc5e828ceb433f9fe3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d7cd25688044a2374c6a280cb9f17979cb56abbd\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-25.0.1_dfcc1fd1a7d7d515838a3e7c98f9baa598ba6daf\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_a0ee5570b6c643e549e98de843d748336569bc8b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_9041bffe27d1841f63d4ab02d93750302456fe08\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_cda88607ed0bb1cba54d7c6a15501d811c0157c3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_6f56327b7e27dacbc8eb6c629daae87e032469c1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Android Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_81c6d64e12e79cd0166a402ca5f65b37bca08da9\classes.dex"
             type="DEX" />
     </build>
 
