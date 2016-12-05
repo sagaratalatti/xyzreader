@@ -24,7 +24,9 @@
     <color name="ltgray">#ffe0e0e0</color>
 
     <color name="colorPrimaryLight">#ffebee</color>
-    <color name="colorPrimaryDark">#f44336</color>
-    <color name="colorAccent">#bdbdbd</color>
+    <color name="colorPrimaryDark">#d32f2f</color>
+    <color name="colorAccent">#4caf50</color>
     <color name="colorPressed">#ffca28</color>
+
+    <color name="toolbar_background">#ff6d00</color>
 </resources>
